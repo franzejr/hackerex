@@ -1,5 +1,4 @@
 defmodule Hackerex do
-  use HTTPoison.Base
   defmodule Client do
     use HTTPoison.Base
 
