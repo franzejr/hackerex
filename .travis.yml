@@ -1,0 +1,8 @@
+language: elixir
+elixir:
+  - 1.0.0
+notifications:
+  recipients:
+    - franzejr@franzejr.com
+env:
+  - MIX_ENV=test
