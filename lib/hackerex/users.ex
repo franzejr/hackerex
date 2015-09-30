@@ -6,5 +6,5 @@ defmodule  Hackerex.Users do
   def find(user, client \\ %Client{}) do
     get "user/#{user}.json", client
   end
-
+t
 end
