@@ -1,10 +1,10 @@
-defmodule  Hackerex.Users do
+defmodule  Hackerex.Items do
   import Hackerex
   alias Hackerex.Client
 
   @spec find(binary, Client.t) :: Hackerex.response
-  def find(user, client \\ %Client{}) do
-    get "user/#{user}.json", client
+  def find(item, client \\ %Client{}) do
+    get "item/#{item}.json", client
   end
 
 end
